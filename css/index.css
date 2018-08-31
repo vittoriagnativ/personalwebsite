@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Satisfy');
+:root {
+   font-family: 'Nothing You Could Do', cursive;
+font-family: 'Satisfy', cursive;
+background-color:#fff1d7
+}
+
+header{
+    color:black;
+    padding: 20px;
+    text-align: right;
+    float: right;
+    display: block;
+    font-weight:bold;
+    font-size:18px;
+    table-layout: fixed;
+}
+    .flex-container {
+  display: flex;
+    }
+  .grid-container {
+  display: grid;
+  }
+  .item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-columns: 1;
+  grid-row: 3;
+  grid column color:black;
+}
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d28ea6;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+body {
+    color:#570051;
+    max-width: 800px;
+    margin: auto;
+}
+h1 {
+    color:#d28ea6;
+    text-align:center;
+    font-weight:bold;
+    font-size:90px;
+}
+h2 {
+    color:#570051;
+    text-align:right;
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight:bold;
+    font-size:30px;
+}
+h3 {
+    color:#570051;
+    text-align:center;
+     font-family: 'Nothing You Could Do', cursive;
+     font-weight:bold;
+    font-size:30px;
+}
+h4 {
+    color:#570051;
+    text-align:center;
+    font-family: 'Satisfy', cursive;
+    font-weight:bold;
+    font-size:30px;
+    table-layout: auto
+}
+h5 {
+    color:#570051;
+    text-align:center;
+    font-family: 'Satisfy', cursive;
+    font-weight:bold;
+    font-size:36px;
+}
+header nav ul {
+    padding-left: 0;
+}
+
+header nav {
+    margin: 0 5px;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color:#74066c;
+    text-decoration: none;
+}
+
+@media (min-width: 400px) {
+    header nav {
+        display: flex;
+    }
+    
+    header nav ul {
+        display: flex;
+        flex: 1;
+    }
+} header nav ul li {
+        margin-left: 2%;
+}
+    
+    header nav ul li:last-child {
+        margin-left: auto;
+        color: blue;
+    }
+    h6 {
+         text-align:right;
+    }
+    a {
+    color: #570051;
+    text-align:center;
+     font-family: 'Nothing You Could Do', cursive;
+     font-weight:bold;
+    font-size:30px;
+    }
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: none;
+}
+    div {
+    clear: left;
+}
+
+img "instagram.png"
+

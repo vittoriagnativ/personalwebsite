@@ -5,7 +5,7 @@ font-family: 'Satisfy', cursive;
 background-color:#fff1d7
 }
 
-header{
+.header{
     color:black;
     padding: 20px;
     text-align: right;
@@ -14,7 +14,6 @@ header{
     font-weight:bold;
     font-size:18px;
     table-layout: fixed;
-
 }
     
 @media (min-width: 400px) {
@@ -25,25 +24,25 @@ background-size:cover;
 background-position: center;
 height: 550px;
 margin:3px auto;
-}
-    header nav {
+
+}  
+header nav {
         display: flex;
     }
     
     header nav ul {
-        display: flex;
-        flex: 1;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    color:#74066c;
     }
-header nav ul li {
-        margin-left: 2%;
-}
-    header nav {
-    margin: 3px;
-}
+    
 header nav ul li a {
     color:#74066c;
     text-decoration: none;
-
 }
 ul {
     list-style-type: none;
@@ -63,8 +62,10 @@ li a {
 body {
 
     color:#570051;
-    max-width: 800px;
     margin: auto;
+    max-width: 900px;
+    padding: 10px;
+   
 }
 h1 {
     color:#d28ea6;
@@ -91,12 +92,24 @@ label {
     color:#570051;
     font-size: large;
     font-weight: bold;
+    position: relative;
+    text-align: center;
+    text-shadow: inherit;
+}  
+fieldset {
+       background-color: #d28ea6;
+       text-align: center;
+       size: auto;
+       margin: auto;
 
 }
 input{
     background-color: #fff1d7;
-    size: auto;
-    background-position: center
+    size: landscape;
+    background-position: center;
+    text-align:center;
+    
+    
 }
 h4 {
     color:#570051;
@@ -124,17 +137,111 @@ h6 {
      font-weight:bold;
     font-size:30px;
     }
-img {
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
 
-}
 londonbridge {
     max-width: none;
 height: 500px;
 width: 50%;
 }
+a:hover { 
+    text-decoration: none;
+    color:#F6CEF5;
+}
+.myjourneys2018{
+    width:50%;
+    text-align:center;
+    display: flex;
+    flex:1;
+    
+}
+    .timetotravel{
+        width: 100%;
+    
+}
+.img{
+    width: 250px;
+    border-radius: 70%;
+    border-color: #F6CEF5;
+    border-width: 2px;
+    border-style: solid;
+    position: absolute;
+    flex:1;
+}
+     .container{
+    display: flex;
+    padding:0px;
+    overflow: hidden;
+    justify-content: space-around;
+    list-style-type : none;
+    margin: 5px;
+    
+}
+
+.photos{
+    width: 50px;
+    border-radius: 100%;
+    border-color: #F6CEF5;
+    border-width: 2px;
+    border-style: solid;
+
+ } 
+ .container div{
+    position: relative;
+    display: inline-block;
+    width:186px;
+    justify-content:space-around;
+
+}
+.figure {
+    margin: 10px;
+    width: 150px;
+    justify-content: space-around;
+}
+ .photos {
+    width: 100%;
+    flex: 1;
+}
+
+.location {
+    text-align: center;
+}
+.myjourneys div{
+    display: inline-block;
+    width:186px;
+    position: relative
+}
+ .clock  div{
+     position: fixed;
+     color:#F6CEF5;
+     size: auto;
+ }
+    
+ .map{
+     width:100%;
+     background-attachment: fixed;
+     
+ }
+
+ div{
+  position:relative;
+  text-align: justify
+}
+img{
+  display:block;
+  width:5%;
+}
+.marker{
+  position:absolute;
+  width:auto;
+  height:auto;
+  border-radius:50%;
+  background:red;
+}
+.marker:nth-child(2){
+  left:21%;
+  top:30%;
+}
+.marker:nth-child(3){
+  left:58%;
+  top:60%;
+} 
